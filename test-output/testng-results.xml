@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank"  href="F:\Selenium Course\error.png">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank"  href="F:\Selenium Course\error.png"><img src="F:\Selenium Course\error.png" height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="4407" started-at="2020-03-08T14:54:14Z" finished-at="2020-03-08T14:54:18Z">
+    <groups>
+    </groups>
+    <test name="BankManagerLoginTest" duration-ms="712" started-at="2020-03-08T14:54:14Z" finished-at="2020-03-08T14:54:15Z">
+      <class name="com.w2a.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@1ca3b418]" name="loginAsBankManager" duration-ms="700" started-at="2020-03-08T10:54:14Z" finished-at="2020-03-08T10:54:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully executed]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank"  href="F:\Selenium Course\error.png">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank"  href="F:\Selenium Course\error.png"><img src="F:\Selenium Course\error.png" height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
+    </test> <!-- BankManagerLoginTest -->
+    <test name="AddCustomerTest" duration-ms="3679" started-at="2020-03-08T14:54:15Z" finished-at="2020-03-08T14:54:18Z">
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcases.AddCustomerTest@d737b89]" name="setUp" is-config="true" duration-ms="12516" started-at="2020-03-08T10:54:01Z" finished-at="2020-03-08T10:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerTest@d737b89]" name="addCustomer" duration-ms="3670" started-at="2020-03-08T10:54:15Z" data-provider="getData" finished-at="2020-03-08T10:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H3H2C3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@d737b89]" name="tearDown" is-config="true" duration-ms="639" started-at="2020-03-08T10:54:18Z" finished-at="2020-03-08T10:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
